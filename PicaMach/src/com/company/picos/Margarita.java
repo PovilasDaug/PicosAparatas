@@ -14,6 +14,11 @@ public class Margarita extends Pica {
 
     @Override
     public String getPavadinias() {
-        return null;
+        return getReceptas().getPavadinimas();
+    }
+
+    @Override
+    public String toString() {
+        return super.getReceptas().getPavadinimas() + "-" + getDydis();
     }
 }

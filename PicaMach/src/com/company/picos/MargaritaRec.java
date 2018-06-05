@@ -5,7 +5,7 @@ import com.company.interfaceai.Receptas;
 
 public class MargaritaRec implements Receptas {
     private Produktai receptoProduktai;
-    private int picosDydis;
+//    private int picosDydis;
     private String pavadinimas;
 
     @Override
@@ -34,4 +34,5 @@ public class MargaritaRec implements Receptas {
     public String getPavadinimas() {
         return pavadinimas;
     }
+
 }
