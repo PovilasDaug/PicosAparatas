@@ -8,6 +8,14 @@ public class Produktai {
     int salami = 450;
     int tomato = 1200;
 
+    public Produktai(int cheese, int bread, int sauce, int salami, int tomato) {
+        this.cheese = cheese;
+        this.bread = bread;
+        this.sauce = sauce;
+        this.salami = salami;
+        this.tomato = tomato;
+    }
+
     public int getCheese() {
         return cheese;
     }

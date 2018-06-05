@@ -20,7 +20,8 @@ public interface Receptas {
     //ar sunaudota produktu skaiciu ar
     public void setProduktai(Produktai produktai);
 
-    public void setDydis(int dydis);
+    //manau, kad nereikia dubliuoti
+//    public void setDydis(int dydis);
 
     public void setPavadinimas(String pavadinimas);
 
