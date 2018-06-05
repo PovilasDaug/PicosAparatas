@@ -9,7 +9,20 @@ public interface Receptas {
     //recepte turi atsispindeti kiek produktu bus sunaudota
     //atsizvelgiant i picos dydi
 
-    public Produktai sunaudotiProduktai(int picosDydis);
+    // gal cia ne getteris? tiesiog metodas kuris suskaiciuoja
+    //kiek produktu bus susnaudota?
 
-    // sunaudojus uzsetinti kiek pro
+    public Produktai getSunaudotiProduktai(int picosDydis);
+
+    // nesuprantu kam to reikia....
+
+    //ka butent siuo atveju setinsiu
+    //ar sunaudota produktu skaiciu ar
+    public void setProduktai(Produktai produktai);
+
+    public void setDydis(int dydis);
+
+    public void setPavadinimas(String pavadinimas);
+
+    public String getPavadinimas();
 }
